@@ -13,11 +13,53 @@ proxies:
       Host: trojan2.udpgw.com
   udp: true
 
-- name: AKRAB idbiz1a
+- name: AKRAB idbiz a
   server: 104.18.3.2
   port: 443
   type: trojan
-  password: 9c569540-2ad1-11ed-b65d-1239d0255272
+  password: 9e2e7ba0-3713-11ed-8c63-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://ruangguru.com/howdy
+    headers: 
+      Host: id5-trojan.bonds.id
+  udp: true
+  
+- name: AKRAB Ikd a
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: ced8cb20-3713-11ed-9b27-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://ruangguru.com/howdy
+    headers: 
+      Host: idtj-ikd.bonds.id
+  udp: true
+  
+- name: AKRAB Herza a
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: fb1b64d0-3713-11ed-985c-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://ruangguru.com/howdy
+    headers: 
+      Host: idtj-herza.bonds.id
+  udp: true
+  
+- name: AKRAB Biznet JKT a
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: 20744600-3714-11ed-b359-1239d0255272
   skip-cert-verify: true
   sni: io.ruangguru.com
   network: ws
@@ -25,90 +67,6 @@ proxies:
     path: wss://ruangguru.com/howdy
     headers: 
       Host: id2-trojan.bonds.id
-  udp: true
-  
-- name: AKRAB 1a
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 1e328b20-21b2-11ed-b3a7-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://ruangguru.com/howdy
-    headers: 
-      Host: sg1-trojan.bonds.id
-  udp: true
-  
-- name: AKRAB 2a
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 066edbb0-21b2-11ed-bbf5-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://ruangguru.com/howdy
-    headers: 
-      Host: sgovh-trojan.bonds.id
-  udp: true
-  
-- name: AKRAB 3a
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 80bde010-2b8e-11ed-a908-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://ruangguru.com/howdy
-    headers: 
-      Host: sg8-trojan.bonds.id
-  udp: true
-
-- name: AKRAB 4a
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 60c9090-21b1-11ed-975e-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://ruangguru.com/howdy
-    headers: 
-      Host: sg3-trojan.bonds.id
-  udp: true
-  
-- name: AKRAB 5a
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: e8660320-21b1-11ed-9895-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://ruangguru.com/howdy
-    headers: 
-      Host: sg2-trojan.bonds.id
-  udp: true
-
-- name: AKRAB 6a
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 903b5560-21b1-11ed-827d-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://ruangguru.com/howdy
-    headers: 
-      Host: sg6-trojan.bonds.id
   udp: true
 
 - name: Vless Id2 1a
