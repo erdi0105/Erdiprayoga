@@ -13,7 +13,7 @@ proxies:
       Host: trojan2.udpgw.com
   udp: true
 
-- name: AKRAB idbiz a
+- name: AKRAB idbiz Banten a
   server: 104.18.3.2
   port: 443
   type: trojan
