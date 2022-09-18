@@ -13,7 +13,7 @@ proxies:
       Host: trojan2.udpgw.com
   udp: true
 
-- name: AKRAB sshocean 251septb
+- name: AKRAB sshocean 25septb
   server: 104.18.3.2
   port: 443
   type: trojan
