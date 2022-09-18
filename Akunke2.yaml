@@ -13,20 +13,6 @@ proxies:
       Host: trojan2.udpgw.com
   udp: true
 
-- name: AKRAB sshocean 25septb
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 64256fa1-682d-48ac-93b9-d19c82b88cf4
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://ruangguru.com/websocket
-    headers: 
-      Host: idt1.sshocean.net
-  udp: true
-
 - name: AKRAB 1b
   server: 104.18.3.2
   port: 443
@@ -141,6 +127,20 @@ proxies:
       Host: id-2.vless.co
   udp: true
 
+- name: AKRAB sshocean 25septb
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: 64256fa1-682d-48ac-93b9-d19c82b88cf4
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://ruangguru.com/websocket
+    headers: 
+      Host: idt1.sshocean.net
+  udp: true
+  
 - name: Vless sshocean 25septb
   server: io.ruangguru.com
   port: 443
