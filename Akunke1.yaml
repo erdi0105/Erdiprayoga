@@ -141,11 +141,11 @@ proxies:
       Host: id-2.vless.co
   udp: true
 
-- name: Vless sshocean1
+- name: Vless sshocean 25septa
   server: io.ruangguru.com
   port: 443
   type: vless
-  uuid: 9de47505-a162-464b-b84a-ccc32c914fba
+  uuid: aea46d37-7f0c-429a-bd7c-1b2d8401f30d
   cipher: auto
   tls: true
   skip-cert-verify: true
@@ -154,5 +154,5 @@ proxies:
   ws-opts: 
     path: ws://io.ruangguru.com/websocket
     headers: 
-      Host: sg6-ws.xvless.xyz
+      Host: id1-ws.xvless.xyz
   udp: true
