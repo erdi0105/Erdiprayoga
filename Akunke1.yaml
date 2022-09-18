@@ -1,5 +1,5 @@
 proxies:
-- name: AKRAB Weekly15.0901a
+- name: AKRAB Weekly15.0901 a
   server: 104.18.3.2
   port: 443
   type: trojan
@@ -85,7 +85,7 @@ proxies:
       Host: id-2.vless.co
   udp: true
 
-- name: AKRAB sshocean 25septa
+- name: AKRAB sshocean 25sept a
   server: 104.18.3.2
   port: 443
   type: trojan
@@ -99,7 +99,7 @@ proxies:
       Host: idt1.sshocean.net
   udp: true
   
-- name: Vless sshocean 25septa
+- name: Vless sshocean 25sept a
   server: io.ruangguru.com
   port: 443
   type: vless
