@@ -1,5 +1,5 @@
 proxies:
-- name: AKRAB Weekly15.0901 a
+- name: Fastssh Weekly15.0901 a
   server: 104.18.3.2
   port: 443
   type: trojan
@@ -13,7 +13,7 @@ proxies:
       Host: trojan2.udpgw.com
   udp: true
 
-- name: AKRAB idbiz Banten a
+- name: Fastssh idbiz Banten a
   server: 104.18.3.2
   port: 443
   type: trojan
@@ -27,7 +27,7 @@ proxies:
       Host: id5-trojan.bonds.id
   udp: true
   
-- name: AKRAB Ikd a
+- name: Fastssh Ikd a
   server: 104.18.3.2
   port: 443
   type: trojan
@@ -41,7 +41,7 @@ proxies:
       Host: idtj-ikd.bonds.id
   udp: true
   
-- name: AKRAB Herza a
+- name: Fastssh Herza a
   server: 104.18.3.2
   port: 443
   type: trojan
@@ -55,7 +55,7 @@ proxies:
       Host: idtj-herza.bonds.id
   udp: true
   
-- name: AKRAB Biznet JKT a
+- name: Fastssh Biznet JKT a
   server: 104.18.3.2
   port: 443
   type: trojan
@@ -69,7 +69,7 @@ proxies:
       Host: id2-trojan.bonds.id
   udp: true
 
-- name: Vless Id2 1a
+- name: Fastssh Vless Id2 b
   server: io.ruangguru.com
   port: 443
   type: vless
@@ -85,7 +85,7 @@ proxies:
       Host: id-2.vless.co
   udp: true
 
-- name: AKRAB sshocean 27sept a
+- name: Vless sshocean 27sept b
   server: 104.18.3.2
   port: 443
   type: trojan
