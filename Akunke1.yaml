@@ -69,7 +69,7 @@ proxies:
       Host: id2-trojan.bonds.id
   udp: true
 
-- name: Fastssh Vless Id2 b
+- name: Fastssh Vless Id2 a
   server: io.ruangguru.com
   port: 443
   type: vless
@@ -85,7 +85,7 @@ proxies:
       Host: id-2.vless.co
   udp: true
 
-- name: Vless sshocean 27sept b
+- name: Vless sshocean 27sept a
   server: 104.18.3.2
   port: 443
   type: trojan
