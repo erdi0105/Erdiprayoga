@@ -99,7 +99,7 @@ proxies:
       Host: idt3.sshocean.net
   udp: true
   
-- name: Vless sshocean 30sept b
+- name: Vless sshocean 30sept a
   server: io.ruangguru.com
   port: 443
   type: vless
