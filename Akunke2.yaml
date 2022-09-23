@@ -99,11 +99,11 @@ proxies:
       Host: idt3.sshocean.net
   udp: true
   
-- name: Vless sshocean 25sept b
+- name: Vless sshocean 30sept b
   server: io.ruangguru.com
   port: 443
   type: vless
-  uuid: aea46d37-7f0c-429a-bd7c-1b2d8401f30d
+  uuid: 839093dd-e0ef-4cc4-b997-500a7796ff93
   cipher: auto
   tls: true
   skip-cert-verify: true
