@@ -85,11 +85,11 @@ proxies:
       Host: id-2.vless.co
   udp: true
 
-- name: Vless sshocean 27sept a
+- name: Trojan sshocean 6 Okt a
   server: 104.18.3.2
   port: 443
   type: trojan
-  password: b394731a-fadf-4fbe-b8a7-4f5d24cfd799
+  password: 07e2a1ec-fa7e-444e-96ef-9ed7dcddc663
   skip-cert-verify: true
   sni: io.ruangguru.com
   network: ws
@@ -99,11 +99,11 @@ proxies:
       Host: idt3.sshocean.net
   udp: true
   
-- name: Vless sshocean 30sept a
+- name: Vless sshocean 6 Okt a
   server: io.ruangguru.com
   port: 443
   type: vless
-  uuid: 839093dd-e0ef-4cc4-b997-500a7796ff93
+  uuid: 3743fbd5-194f-4e33-b4a9-f4f136ddbea9
   cipher: auto
   tls: true
   skip-cert-verify: true
