@@ -1,23 +1,23 @@
 proxies:
-- name: Fastssh Weekly15.0901 a
+- name: Trj Fastssh Weekly15.0901 a
   server: 104.18.3.2
   port: 443
   type: trojan
-  password: a8651320-3711-11ed-be5d-1239d0255272
+  password: ef3fb150-3fd6-11ed-a598-1239d0255272
   skip-cert-verify: true
   sni: io.ruangguru.com
   network: ws
   ws-opts: 
     path: wss://io.ruangguru.com/howdy
     headers: 
-      Host: trojan2.udpgw.com
+      Host: trojan3.udpgw.com
   udp: true
 
-- name: Fastssh idbiz Banten a
+- name: Trj Fastssh idbiz Banten a
   server: 104.18.3.2
   port: 443
   type: trojan
-  password: 9e2e7ba0-3713-11ed-8c63-1239d0255272
+  password: 58b56d50-3fd7-11ed-ae80-1239d0255272
   skip-cert-verify: true
   sni: io.ruangguru.com
   network: ws
@@ -27,11 +27,11 @@ proxies:
       Host: id5-trojan.bonds.id
   udp: true
   
-- name: Fastssh Ikd a
+- name: Trj Fastssh Ikd a
   server: 104.18.3.2
   port: 443
   type: trojan
-  password: ced8cb20-3713-11ed-9b27-1239d0255272
+  password: 791ab5f0-3fd7-11ed-9d32-1239d0255272
   skip-cert-verify: true
   sni: io.ruangguru.com
   network: ws
@@ -41,11 +41,11 @@ proxies:
       Host: idtj-ikd.bonds.id
   udp: true
   
-- name: Fastssh Herza a
+- name: Trj Fastssh Herza a
   server: 104.18.3.2
   port: 443
   type: trojan
-  password: fb1b64d0-3713-11ed-985c-1239d0255272
+  password: 22cc80a0-3fd7-11ed-8dba-1239d0255272
   skip-cert-verify: true
   sni: io.ruangguru.com
   network: ws
@@ -55,11 +55,11 @@ proxies:
       Host: idtj-herza.bonds.id
   udp: true
   
-- name: Fastssh Biznet JKT a
+- name: Trj Fastssh Biznet JKT a
   server: 104.18.3.2
   port: 443
   type: trojan
-  password: 20744600-3714-11ed-b359-1239d0255272
+  password: a1212680-3fd7-11ed-b636-1239d0255272
   skip-cert-verify: true
   sni: io.ruangguru.com
   network: ws
@@ -69,7 +69,7 @@ proxies:
       Host: id2-trojan.bonds.id
   udp: true
 
-- name: Fastssh Vless Id2 a
+- name: Vless Fastssh Id2 a
   server: io.ruangguru.com
   port: 443
   type: vless
