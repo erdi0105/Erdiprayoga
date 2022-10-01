@@ -90,3 +90,17 @@ proxies:
     headers: 
       Host: sgovh-trojan.bonds.id
   udp: true
+  
+- name: Trj Fastssh unli
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: 1a5e2c70-418b-11ed-b632-225401db9d57
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://io.ruangguru.com/howdy
+    headers: 
+      Host: sg-ovh.tjvpn.org
+  udp: true
