@@ -43,6 +43,51 @@ proxies:
   
 - name: Trj Fastssh Herza b
   server: 104.18.3.2
+proxies:
+- name: Trj Fastssh Weekly15.0901 b
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: ef3fb150-3fd6-11ed-a598-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://io.ruangguru.com/howdy
+    headers: 
+      Host: trojan3.udpgw.com
+  udp: true
+
+- name: Trj Fastssh idbiz Banten b
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: 58b56d50-3fd7-11ed-ae80-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://ruangguru.com/howdy
+    headers: 
+      Host: id5-trojan.bonds.id
+  udp: true
+  
+- name: Trj Fastssh Ikd b
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: 791ab5f0-3fd7-11ed-9d32-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://ruangguru.com/howdy
+    headers: 
+      Host: idtj-ikd.bonds.id
+  udp: true
+  
+- name: Trj Fastssh Herza b
+  server: 104.18.3.2
   port: 443
   type: trojan
   password: 22cc80a0-3fd7-11ed-8dba-1239d0255272
