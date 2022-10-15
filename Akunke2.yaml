@@ -1,9 +1,9 @@
 proxies:
-- name: Vless sshocean1 b
+- name: Vless sshocean1 a
   server: io.ruangguru.com
   port: 443
   type: vless
-  uuid: a970e8b5-0b50-47d9-9272-155f4297b39c
+  uuid: c91e18c8-f8eb-4219-97b0-15ebeed164fa
   cipher: auto
   tls: true
   skip-cert-verify: true
@@ -12,14 +12,14 @@ proxies:
   ws-opts: 
     path: ws://io.ruangguru.com/websocket
     headers: 
-      Host: sg1-ctb-ws.xvless.xyz
+      Host: sg3-ws.xvless.xyz
   udp: true
 
-- name: Vless sshocean2 b
+- name: Vless sshocean2 a
   server: io.ruangguru.com
   port: 443
   type: vless
-  uuid: 192cc92f-d628-4f6c-962a-ffdf55b29ef4
+  uuid: aee0dd21-d41b-4da1-983d-7e742532086d
   cipher: auto
   tls: true
   skip-cert-verify: true
@@ -28,65 +28,8 @@ proxies:
   ws-opts: 
     path: ws://io.ruangguru.com/websocket
     headers: 
-      Host: us2-ws.xvless.xyz
+      Host: sg5-ws.xvless.xyz
   udp: true
 
-- name: Vless Fastssh 1 b
-  server: io.ruangguru.com
-  port: 443
-  type: vless
-  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: ws://io.ruangguru.com/fastssh/fdsfsdf/633828eec97bc/
-    headers: 
-      Host: sg2.vless.co
-  udp: true
 
-- name: Vless Fastssh 2 b
-  server: io.ruangguru.com
-  port: 443
-  type: vless
-  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  servername: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: ws://io.ruangguru.com/fastssh/dfdf/6338294a3ab3f/
-    headers: 
-      Host: sg1.vless.co
-  udp: true
 
-- name: Trj Fastssh SGOVH 1 b
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 1abca810-4180-11ed-b066-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://io.ruangguru.com/howdy
-    headers: 
-      Host: sgovh-trojan.bonds.id
-  udp: true
-
-- name: Trj Fastssh SGOVH 2 b
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 59875db0-4180-11ed-a5c0-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://io.ruangguru.com/howdy
-    headers: 
-      Host: sgovh-trojan.bonds.id
-  udp: true
