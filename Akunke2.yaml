@@ -31,5 +31,73 @@ proxies:
       Host: sg5-ws.xvless.xyz
   udp: true
 
+- name: Trj Fastssh SGOVH 1 b
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: 56091890-4c3b-11ed-96a3-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://io.ruangguru.com/howdy
+    headers: 
+      Host: sgovh-trojan.bonds.id
+  udp: true
 
+- name: Trj Fastssh SGOVH 2 b
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: 6a096de0-4c3b-11ed-ad54-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://io.ruangguru.com/howdy
+    headers: 
+      Host: sgovh-trojan.bonds.id
+  udp: true
+
+- name: Trj Fastssh SGOVH 3 b
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: 89973070-4c3b-11ed-aa7c-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://io.ruangguru.com/howdy
+    headers: 
+      Host: sgovh-trojan.bonds.id
+  udp: true
+
+- name: Trj Fastssh SGUPDGW b
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: f666ab80-4c3a-11ed-8420-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://io.ruangguru.com/howdy
+    headers: 
+      Host: sg8-trojan.bonds.id
+  udp: true
+
+- name: Trj Fastssh SGHE3 b
+  server: 104.18.3.2
+  port: 443
+  type: trojan
+  password: 229d9fe0-4c3b-11ed-8497-1239d0255272
+  skip-cert-verify: true
+  sni: io.ruangguru.com
+  network: ws
+  ws-opts: 
+    path: wss://io.ruangguru.com/howdy
+    headers: 
+      Host: sg3-trojan.bonds.id
+  udp: true
 
