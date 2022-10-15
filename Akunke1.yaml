@@ -30,4 +30,3 @@ proxies:
     headers: 
       Host: sg5-ws.xvless.xyz
   udp: true
-
