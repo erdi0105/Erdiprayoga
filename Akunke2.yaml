@@ -1,5 +1,5 @@
 proxies:
-- name: Vless sshocean1 a
+- name: Vless sshocean1 b
   server: io.ruangguru.com
   port: 443
   type: vless
@@ -15,7 +15,7 @@ proxies:
       Host: sg3-ws.xvless.xyz
   udp: true
 
-- name: Vless sshocean2 a
+- name: Vless sshocean2 b
   server: io.ruangguru.com
   port: 443
   type: vless
