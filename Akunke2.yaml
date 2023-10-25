@@ -1,103 +1,90 @@
 proxies:
-- name: Vless sshocean1 b
-  server: io.ruangguru.com
+- name: 1.lowh.net
+  server: support.liveon.id
   port: 443
-  type: vless
-  uuid: c91e18c8-f8eb-4219-97b0-15ebeed164fa
+  type: trojan
+  password: f5e98720-6f40-11ee-ba12-1577c1651679
+  skip-cert-verify: true
+  sni: 1.lowh.net
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: 1.lowh.net
+  udp: true  
+
+- name: 11.lowh.net
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: 12673ed0-6f41-11ee-8171-1577c1651679
+  skip-cert-verify: true
+  sni: 11.lowh.net
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: 11.lowh.net
+  udp: true  
+  
+- name: sg.xmbb.net
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: 36cf8110-6f42-11ee-842a-1577c1651679
+  skip-cert-verify: true
+  sni: sg.xmbb.net
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg.xmbb.net
+  udp: true
+  
+- name: sg-trojan.1server.co
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: 4da81840-6f42-11ee-911e-1577c1651679
+  skip-cert-verify: true
+  sni: sg-trojan.1server.co
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg-trojan.1server.co
+  udp: true 
+  
+- name: lb.vhax.net 27.10
+  server: 104.22.8.121
+  port: 443
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: io.ruangguru.com
+  servername: lb.vhax.net
   network: ws
-  ws-opts: 
-    path: ws://io.ruangguru.com/websocket
-    headers: 
-      Host: sg3-ws.xvless.xyz
-  udp: true
+  ws-opts:
+    path: /sshkit/fafaf/65326f8dc63c5/
+    headers:
+      Host: lb.vhax.net
+  udp: true  
+  
 
-- name: Vless sshocean2 b
-  server: io.ruangguru.com
+- name: sshocean-tghfgh
+  server: support.live.on
   port: 443
   type: vless
-  uuid: aee0dd21-d41b-4da1-983d-7e742532086d
+  uuid: bd91b3c8-15a7-4d1f-bf0a-dbffc56d931b
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: io.ruangguru.com
+  servername: dk1.v2vless.xyz
   network: ws
-  ws-opts: 
-    path: ws://io.ruangguru.com/websocket
-    headers: 
-      Host: sg5-ws.xvless.xyz
-  udp: true
-
-- name: Trj Fastssh SGOVH 1 b
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 56091890-4c3b-11ed-96a3-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://io.ruangguru.com/howdy
-    headers: 
-      Host: sgovh-trojan.bonds.id
-  udp: true
-
-- name: Trj Fastssh SGOVH 2 b
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 6a096de0-4c3b-11ed-ad54-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://io.ruangguru.com/howdy
-    headers: 
-      Host: sgovh-trojan.bonds.id
-  udp: true
-
-- name: Trj Fastssh SGOVH 3 b
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 89973070-4c3b-11ed-aa7c-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://io.ruangguru.com/howdy
-    headers: 
-      Host: sgovh-trojan.bonds.id
-  udp: true
-
-- name: Trj Fastssh SGUPDGW b
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: f666ab80-4c3a-11ed-8420-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://io.ruangguru.com/howdy
-    headers: 
-      Host: sg8-trojan.bonds.id
-  udp: true
-
-- name: Trj Fastssh SGHE3 b
-  server: 104.18.3.2
-  port: 443
-  type: trojan
-  password: 229d9fe0-4c3b-11ed-8497-1239d0255272
-  skip-cert-verify: true
-  sni: io.ruangguru.com
-  network: ws
-  ws-opts: 
-    path: wss://io.ruangguru.com/howdy
-    headers: 
-      Host: sg3-trojan.bonds.id
-  udp: true
-
+  ws-opts:
+    path: /vless
+    headers:
+      Host: dk1.v2vless.xyz
+  udp: true   
