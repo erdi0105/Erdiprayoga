@@ -1,0 +1,203 @@
+proxies:
+- name: 1.lowh.net
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: f5e98720-6f40-11ee-ba12-1577c1651679
+  skip-cert-verify: true
+  sni: 1.lowh.net
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: 1.lowh.net
+  udp: true  
+
+- name: 11.lowh.net
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: 12673ed0-6f41-11ee-8171-1577c1651679
+  skip-cert-verify: true
+  sni: 11.lowh.net
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: 11.lowh.net
+  udp: true  
+  
+- name: sg.xmbb.net
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: 36cf8110-6f42-11ee-842a-1577c1651679
+  skip-cert-verify: true
+  sni: sg.xmbb.net
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg.xmbb.net
+  udp: true
+  
+- name: sg-trojan.1server.co
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: 4da81840-6f42-11ee-911e-1577c1651679
+  skip-cert-verify: true
+  sni: sg-trojan.1server.co
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg-trojan.1server.co
+  udp: true 
+
+- name: sg Free 1
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: bc2d1460-73b2-11ee-95cf-1239d0255272
+  skip-cert-verify: true
+  sni: sg2-trojan.bonds.id
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg2-trojan.bonds.id
+  udp: true 
+
+
+- name: sg Free 2
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: d562aea0-73b2-11ee-8afa-1239d0255272
+  skip-cert-verify: true
+  sni: sg2-trojan.bonds.id
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg2-trojan.bonds.id
+  udp: true 
+
+- name: sg Free 3
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: bdeed580-73b4-11ee-afbc-1239d0255272
+  skip-cert-verify: true
+  sni: sg6-trojan.bonds.id
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg6-trojan.bonds.id
+  udp: true 
+
+- name: sg Free 4
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: cebe1c80-73b4-11ee-af2c-1239d0255272
+  skip-cert-verify: true
+  sni: sg6-trojan.bonds.id
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg6-trojan.bonds.id
+  udp: true
+  
+- name: sg Free 5
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: df677880-73b4-11ee-b677-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg3-trojan.bonds.id
+  udp: true  
+
+- name: sg Free 6
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: 1b1d3d90-73b5-11ee-87fa-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg3-trojan.bonds.id
+  udp: true 
+
+- name: sg Free 7
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: 31a17360-73b5-11ee-97b0-1239d0255272
+  skip-cert-verify: true
+  sni: sg1-trojan.bonds.id
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg1-trojan.bonds.id
+  udp: true
+  
+- name: sg Free 8
+  server: support.liveon.id
+  port: 443
+  type: trojan
+  password: 4197f070-73b5-11ee-8c08-1239d0255272
+  skip-cert-verify: true
+  sni: sg1-trojan.bonds.id
+  network: ws
+  ws-opts: 
+    path: /howdy
+    headers: 
+      Host: sg1-trojan.bonds.id
+  udp: true
+  
+- name: lb.vhax.net 27.10
+  server: 104.22.8.121
+  port: 443
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: lb.vhax.net
+  network: ws
+  ws-opts:
+    path: /sshkit/fafaf/65326f8dc63c5/
+    headers:
+      Host: lb.vhax.net
+  udp: true  
+  
+
+- name: sshocean-tghfgh
+  server: support.live.on
+  port: 443
+  type: vless
+  uuid: bd91b3c8-15a7-4d1f-bf0a-dbffc56d931b
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: dk1.v2vless.xyz
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: dk1.v2vless.xyz
+  udp: true   
